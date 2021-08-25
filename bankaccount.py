@@ -10,7 +10,7 @@ class Account:
 
     def __init__(self, name, balance):
         self.name = name
-        self.balance = balacne
+        self.balance = balance
         self._transaction_list = [(Account._current_time(),balance)]
         print("Account created for " + self.name)
         self.show_balance
